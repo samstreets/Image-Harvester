@@ -1,6 +1,6 @@
 services:
   image-harvester:
-    build: .
+    image: ghcr.io/samstreets/image-harvester:latest
     ports:
       - "3000:3000"
     environment:
